@@ -35,7 +35,7 @@ src/public
 │   index.html                                   # first / home page
 │
 ├───app                                          # our own frontend js code
-│       social-common.js
+│       common.js
 │
 ├───components                                   # our own html snippets
 │       navbar.html
