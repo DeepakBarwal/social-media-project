@@ -5,7 +5,7 @@ $(() => {
 });
 
 function loginIfNeeded() {
-  window.currentUser = window.localStorage.user
+  let currentUser = window.localStorage.user
     ? JSON.parse(window.localStorage.user)
     : null;
   if (!currentUser) {
