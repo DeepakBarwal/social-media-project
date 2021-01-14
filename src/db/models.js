@@ -1,5 +1,21 @@
 const { Sequelize, DataTypes } = require('sequelize');
 
+// let db;
+
+// if (process.env.NODE_ENV === 'testing') {
+//   db = new Sequelize({
+//     dialect: 'sqlite',
+//     storage: __dirname + '/../../test/test.db',
+//   });
+// } else {
+// db = new Sequelize({
+//   dialect: 'mysql',
+//   database: 'socialmediadb',
+//   username: 'socialuser',
+//   password: 'mypass',
+// });
+// }
+
 const db = new Sequelize({
   dialect: 'mysql',
   database: 'socialmediadb',
